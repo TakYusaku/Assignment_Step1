@@ -1,0 +1,30 @@
+﻿
+body{
+width:auto;
+text-align:center;
+}
+
+#list { text-align: left; margin-left: auto; margin-right: auto; width: 500px; }
+
+.text{
+background: linear-gradient(transparent 60%, #ff99ff 60%);
+}
+
+#formText{
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+}
+
+#date{
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+}
+
+h1 {
+	padding: 1em;
+	border: 3px solid #ccc;
+	border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
+  display: inline-block;
+}

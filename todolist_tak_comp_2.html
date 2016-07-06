@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset=UTF-8" />
+    <title>TODO List made by Tak</title>
+    <link rel="stylesheet" href="tdl_tak_css.css">
+    <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+      <script src="todo_comp_js.js"></script>
+      <script src="sweetalert.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="sweetalert.css">
+  </head>
+  <body>
+    <h1 class="Tab">Takが作った "TODO List"</h1>
+    
+    <h4>[全てクリア]を実行したら、一度ページを更新してください</h4>
+      <h5>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </h5>
+      <br>
+  <div id="form">
+          期限 :<input id="date" type="text" size="12" placeholder="例:19980801(-なし)" maxlength="8">
+          &nbsp;<input id="formText" type="text" size="30" placeholder="新しいTODOを記入してください" maxlength="30" onkeydown="go();">
+          <input id="formButton" type="button" value="追加" onclick="document.charset= 'UTF-8';">
+          <input id="deleteButton" type="button" value="全てクリア">
+</div>
+      <br>
+  <div id="list"></div>
+  </body>
+</html>
+
